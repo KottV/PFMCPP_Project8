@@ -44,6 +44,9 @@ your task:
 #include <vector>
 #include <algorithm>
 #include <cassert>
+#include "Highway.h"
+#include "HighwayPatrol.h"
+#include "SemiTruck.h"
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
