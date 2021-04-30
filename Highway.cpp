@@ -27,7 +27,7 @@ void Highway::addVehicleInternal(Vehicle* v)
         car->closeWindows();
 
     if (auto* motorcycle = dynamic_cast<Motorcycle*>(v))
-        motorcycle->lanesplitAndRace();
+        motorcycle->lanesplitAndRace(100);
     /*
     depending on the derived type, call the member function that doesn't evade the cops. 
     */
