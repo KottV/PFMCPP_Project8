@@ -129,9 +129,7 @@ int main()
 
     trucks.emplace_back("ivanych");
     trucks.emplace_back("petrovich");
-    trucks.emplace_back("sidorovich");
-    
-    
+        
     assert(false);
     //add the cars, motorcycles and trucks to the highway using range-based for() loops: for( element : vec ) { ... }
     //be careful to not accidentally make element copies when iterating.
