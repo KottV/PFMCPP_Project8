@@ -114,12 +114,22 @@ int main()
     /*
      construct 2 more Car instances via emplace_back.
      */
-    
+    cars.emplace_back("tori");
+    cars.emplace_back("cortney");
     /*
      now reserve and emplace_back your Trucks and Motorcyles
      */
     
-    
+    motorcycles.reserve(3);
+    trucks.reserve(3);
+
+    motorcycles.emplace_back("kurt");
+    motorcycles.emplace_back("chris");
+    motorcycles.emplace_back("dave");
+
+    trucks.emplace_back("ivanych");
+    trucks.emplace_back("petrovich");
+    trucks.emplace_back("sidorovich");
     
     
     assert(false);
