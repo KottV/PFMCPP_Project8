@@ -7,7 +7,7 @@ struct Motorcycle : Vehicle
 {
     Motorcycle(const std::string& n);
     
-    ~Motorcycle();
+    ~Motorcycle() override;
     Motorcycle(const Motorcycle&);
     Motorcycle& operator=(const Motorcycle&);
     

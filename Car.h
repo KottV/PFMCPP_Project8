@@ -5,7 +5,7 @@
 struct Car : Vehicle
 {
     Car(const std::string& s);
-    ~Car();
+    ~Car() override;
     Car(const Car&);
     Car& operator=(const Car&);
 

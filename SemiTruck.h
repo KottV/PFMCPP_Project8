@@ -6,7 +6,7 @@ struct SemiTruck : Vehicle
 {
     SemiTruck(const std::string& s);
     
-    ~SemiTruck();
+    ~SemiTruck() override;
     SemiTruck(const SemiTruck&);
     SemiTruck& operator=(const SemiTruck&);
     
